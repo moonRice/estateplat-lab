@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>doPost</title>
+</head>
+<body>
+<form action="/ServletDemo_war/demo5" method="post">
+    <input name="text"><input type="submit" value="demo5">
+</form>
+<hr>
+<form action="/ServletDemo_war/req1" method="post">
+    <input type="text" name="username">
+    <input type="password" name="password">
+    <input type="submit" value="req1">
+</form>
+<hr>
+<form action="/ServletDemo_war/req2" method="get">
+    <input type="text" name="username">
+    <input type="password" name="password">
+    <input type="checkbox" name="hobby" value="1"> 游泳
+    <input type="checkbox" name="hobby" value="2"> 爬山
+    <input type="checkbox" name="hobby" value="3"> 摄影
+    <input type="checkbox" name="hobby" value="4"> 飞行
+    <input type="submit" value="req2-get">
+</form>
+<hr>
+<form action="/ServletDemo_war/req2" method="post">
+    <input type="text" name="username">
+    <input type="password" name="password">
+    <input type="checkbox" name="hobby" value="1"> 游泳
+    <input type="checkbox" name="hobby" value="2"> 爬山
+    <input type="checkbox" name="hobby" value="3"> 摄影
+    <input type="checkbox" name="hobby" value="4"> 飞行
+    <input type="submit" value="req2-post">
+</form>
+</body>
+</html>
